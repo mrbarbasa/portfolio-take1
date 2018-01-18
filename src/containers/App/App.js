@@ -7,7 +7,14 @@ class App extends Component {
     return (
       <div className={styles.container}>
         <Header title="Marifel Barbasa" />
-        <p className={styles.intro}>Content pending</p>
+        <div className={styles.content}>
+          <div>something</div>
+          <div>really</div>
+          <div>cool</div>
+          <div>should</div>
+          <div>go</div>
+          <div>here</div>
+        </div>
       </div>
     );
   }
