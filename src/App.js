@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import './App.css';
+import styles from './App.module.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Marifel Barbasa</h1>
+      <div className={styles.container}>
+        <header className={styles.header}>
+          <h1 className={styles.title}>Marifel Barbasa</h1>
         </header>
-        <p className="App-intro">Content pending</p>
+        <p className={styles.intro}>Content pending</p>
       </div>
     );
   }
