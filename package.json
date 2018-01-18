@@ -1,7 +1,10 @@
 {
   "name": "mrbarbasa.github.io",
   "version": "0.1.0",
-  "private": true,
+  "engineStrict": true,
+  "engines": {
+    "node": "8.9.4"
+  },
   "devDependencies": {
     "react-scripts": "1.1.0"
   },
