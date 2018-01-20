@@ -1,0 +1,40 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 50vw);
+  grid-auto-rows: 50vw;
+  justify-content: center;
+}
+
+.grid > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #ffeead;
+}
+
+.grid > div:nth-child(1n) {
+  background: #96ceb4;
+}
+
+.grid > div:nth-child(2n) {
+  background: #ff6f69;
+}
+
+.grid > div:nth-child(3n) {
+  background: #4994bd;
+}
+
+@media screen and (min-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(4, 25vw);
+    grid-auto-rows: 25vw;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .grid {
+    grid-template-columns: repeat(4, 200px);
+    grid-auto-rows: 200px;
+  }
+}
