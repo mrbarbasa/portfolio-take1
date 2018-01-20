@@ -1,0 +1,30 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 50vw);
+  grid-auto-rows: 50vw;
+  justify-content: center;
+}
+
+.grid > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #96ceb4;
+  border: 2px solid #ffffff;
+  box-shadow: inset 0px 0px 0px 4px #f0f0f0;
+}
+
+@media screen and (min-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(4, 25vw);
+    grid-auto-rows: 25vw;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .grid {
+    grid-template-columns: repeat(4, 200px);
+    grid-auto-rows: 200px;
+  }
+}
