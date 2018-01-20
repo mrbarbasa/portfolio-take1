@@ -8,14 +8,14 @@ class App extends Component {
       <div className={styles.container}>
         <Header title="Marifel Barbasa" />
         <SquareGrid>
-          <div>something</div>
-          <div>really</div>
-          <div>super</div>
-          <div>duper</div>
-          <div>cool</div>
-          <div>should</div>
-          <div>go</div>
-          <div>here</div>
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
+          <div />
         </SquareGrid>
       </div>
     );
