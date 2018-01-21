@@ -1,0 +1,15 @@
+.wrapper {
+  background: #2B303B;
+}
+
+.prompt {
+  color: #B48EAD;
+  font-size: 0.7rem;
+}
+
+.command {
+  color: #A3BE8C;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
