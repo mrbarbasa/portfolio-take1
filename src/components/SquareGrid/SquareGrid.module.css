@@ -6,11 +6,6 @@
 }
 
 .grid > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  color: #96ceb4;
   border: 2px solid #ffffff;
   box-shadow: inset 0px 0px 0px 4px #f0f0f0;
 }
